@@ -3,8 +3,16 @@ body {
     margin: 0;
 }
 
+section {
+    margin-bottom: 5%;
+}
+
 h1 {
     font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
 }
 
 h3 {
@@ -15,7 +23,7 @@ h3 {
     color: rgb(45, 97, 165);
 }
 
-section {
+.Flexible-container {
     display: flex;
 }
 
@@ -50,4 +58,30 @@ section {
 
 p {
     text-align: justify;
+}
+
+.experience-iteam {
+    box-shadow: 10px 10px 40px gray;
+    width: 44%;
+    margin: 3%;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full-stack-developer {
+    border-left: 7px solid tomato;
+}
+
+#baby-web-developer {
+    border-left: 7px solid blue;
+}
+
+footer p {
+    text-align: center;
 }
